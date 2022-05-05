@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "746360661289",
+    "project_id": "kanu-7e13e",
+    "storage_bucket": "kanu-7e13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746360661289:android:570f52ea707718938a4338",
+        "android_client_info": {
+          "package_name": "com.k.kanu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746360661289-q25l6rf35harb8vvbc7vc929qkeb8hc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.k.kanu",
+            "certificate_hash": "5311d2f04800b9483486b267cc28f755cfd90417"
+          }
+        },
+        {
+          "client_id": "746360661289-oja794jsf43496eq93mf03v0bk802l46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyvGkgWUgRgdGSmNE6MVO_0Z2Gop5bt_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746360661289-oja794jsf43496eq93mf03v0bk802l46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
