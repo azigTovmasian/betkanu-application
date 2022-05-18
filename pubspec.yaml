@@ -35,7 +35,7 @@ dependencies:
   curved_navigation_bar: ^1.0.3
   firebase_core: ^1.15.0
   firebase_storage: ^10.2.14
-  firebase_auth: ^3.3.16
+  firebase_auth: ^3.3.17
   cloud_firestore: ^3.1.13
   google_sign_in: ^5.3.0
   font_awesome_flutter: ^10.1.0 # for google icon
@@ -48,6 +48,8 @@ dependencies:
   path: ^1.8.0 # to manipulate paths
   file_picker: ^4.5.1 #to pick a file
   path_provider: ^2.0.9 # to store file on device
+  youtube_player_flutter: ^8.0.0 #to play youtube videos 
+  store_redirect: ^2.0.1 #to redirect to an app page in Google Play Store and Apple App Store
 
 
 

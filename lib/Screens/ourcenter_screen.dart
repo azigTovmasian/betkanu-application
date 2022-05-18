@@ -34,10 +34,11 @@ class _OurCenterScreenState extends State<OurCenterScreen> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBarWidget(title: 'Our Center'),
       body: Container(
-      height: 600,
+      height: height*0.9,
       child: ListView.separated(
         padding: EdgeInsets.all(10),
         itemBuilder: (context, index) => OurCenterWidget(

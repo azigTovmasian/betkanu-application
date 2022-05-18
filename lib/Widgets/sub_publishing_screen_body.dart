@@ -70,7 +70,7 @@ class SubPublishingScreenBody extends StatelessWidget {
         ),
         ElevatedButton(
           onPressed: () async {
-            final url = 'OOP.pdf';
+            final url = pdfURL(item.id);
             final file = await PDFApi.loadFirebase(url);
             openPDF(context, file);
           },
@@ -87,4 +87,28 @@ class SubPublishingScreenBody extends StatelessWidget {
   void openPDF(BuildContext context, File file) => Navigator.of(context).push(
         MaterialPageRoute(builder: (context) => PDFViewerScreen(file: file)),
       );
+  String pdfURL(String id) {
+    late String pdf;
+    switch (id) {
+      case '1':
+        pdf = '1.pdf';
+        break;
+      case '2':
+        pdf = '2.pdf';
+        break;
+      case '3':
+        pdf = '3.pdf';
+        break;
+      case '4':
+        pdf = '4.pdf';
+        break;
+      case '5':
+        pdf = '5.pdf';
+        break;        
+      default:
+      pdf = 'OOP.pdf';
+        break;
+    }
+    return pdf;
+  }
 }

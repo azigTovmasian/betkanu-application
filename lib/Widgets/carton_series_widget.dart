@@ -15,47 +15,15 @@ class _CartonSeriesWidgetState extends State<CartonSeriesWidget> {
     CardItem(
         imageURL:
             'https://betkanu.com/content/img/products/banners/TheSunSet_1920_700.jpg',
-        imageTitle: 'The Sun Set Song'),
+        imageTitle: 'The Sun Set Song',id:'1'),
     CardItem(
         imageURL:
             'https://betkanu.com/content/img/products/banners/wethreekings_1920_700.jpg',
-        imageTitle: 'We Three Kings Song'),
+        imageTitle: 'We Three Kings Song',id:'2'),
     CardItem(
         imageURL:
             'https://betkanu.com/content/img/products/banners/openshutthem_1920_700.jpg',
-        imageTitle: 'Open Shut Them Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/qoobrana_1920_700.jpg',
-        imageTitle: 'Canopy of Unity Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/JosephtheGardener_1920_700.jpg',
-        imageTitle: 'Joseph The Gardener Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
-    CardItem(
-        imageURL:
-            'https://betkanu.com/content/img/products/banners/antsong_1920_700.jpg',
-        imageTitle: 'Ant Song'),
+        imageTitle: 'Open Shut Them Song',id:'3'),
   ];
 
   @override

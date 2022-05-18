@@ -39,6 +39,7 @@ class BuildSoftwareWidget extends StatelessWidget {
                   child: InkWell(onTap: () {
                     Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => SubSoftwareScreen(
+                             
                               item: item,
                               pItem: pItem,
                             )));

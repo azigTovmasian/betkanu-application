@@ -1,16 +1,16 @@
-import 'package:kanu/Model/sub_publishing_model.dart';
-import 'package:kanu/Widgets/sub_publishing_images_listview_widget.dart';
+import 'package:kanu/Model/sub_songs_model.dart';
+import 'package:kanu/Widgets/sub_songs_images_listview_widget.dart';
 
 class SubSongsScreenData {
   static List subImagesURL = [
-    'https://betkanu.com/content/img/products/banners/freeze_1920_350.jpg',
-    'https://betkanu.com/content/img/products/banners/freeze_1920_350.jpg',
+    'images/western.PNG',
+    'images/eastern.PNG',
   ];
   // the same data for all songs .. for saving time
-  static List<SubPublishingModel> subSongsData(
+  static List<SubSongsModel> subSongsData(
       {required double height, required double width}) {
-    List<SubPublishingModel> sItem = [
-      SubPublishingModel(
+    List<SubSongsModel> sItem = [
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -27,14 +27,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -51,14 +51,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -75,14 +75,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -99,14 +99,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -123,14 +123,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -147,14 +147,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -171,14 +171,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -195,14 +195,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -219,14 +219,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -243,14 +243,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -267,14 +267,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -291,14 +291,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -315,14 +315,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -339,14 +339,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -363,14 +363,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -387,14 +387,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -411,14 +411,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -435,14 +435,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -459,14 +459,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -483,7 +483,7 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
@@ -491,7 +491,7 @@ class SubSongsScreenData {
             imageHeight: height * 3 / 16),
       ),
 
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -508,14 +508,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -532,14 +532,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -556,14 +556,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -580,14 +580,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -604,14 +604,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -628,14 +628,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -652,14 +652,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -676,14 +676,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -700,14 +700,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -724,14 +724,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -748,14 +748,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -772,14 +772,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -796,14 +796,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -820,14 +820,14 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,
             imageWidth: width * 3 / 8,
             imageHeight: height * 3 / 16),
       ),
-      SubPublishingModel(
+      SubSongsModel(
         pDescription:
             'Freeze Dance is a fun modern game song to engage kids and play them and have them move around, jump, shake, and dance. It has lots of benefits as it encourages kids to not be sitting for long time, thus helps their joins to be flexible; it is great for auditory processing and responding; it strengthens awareness and attention and body control; and it is a great way to improve balance whether static when stopping or dynamic when moving.',
         pFeatures: 'Western Lyrics:\n' +
@@ -844,7 +844,7 @@ class SubSongsScreenData {
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܫܥܵܫܵܐ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܫܥܘܿܫܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܗܵܕܝܼܵܐ ܡܛܲܝܒ݂ܘܿܢ ܢܲܦ̮ܫܵܘܟ݂ܘܿܢ ܠܲܦܬܵܠܵܐ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܦܬܘܿܠܘܿܢ ܡ̣ܢ ܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ\n' +
             'ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܟܡܵܐ ܕܡܵܨܝܼܬܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܪܩܘܿܕܘܿܢ ܒܟܠܹܗ ܕܠܸܒܵܘܟ݂ܘܿܢ ܟܠܹܐ ܡܘܿܢ ܐܝܼܡܲܢ ܕܐܵܡܪܸܢ ܟܠܹܐ ܡܘܿܢ!',
-        pSubImages: SubPublishingImagesListViewWidget(
+        pSubImages: SubSongsImagesListViewWidget(
             subImagesCount: subImagesURL.length,
             subImagesURL: subImagesURL,
             containerHeight: height * 1 / 4,

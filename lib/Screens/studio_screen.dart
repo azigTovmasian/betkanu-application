@@ -28,54 +28,55 @@ class _StudioScreenState extends State<StudioScreen> {
     return Scaffold(
         //appBar: AppBarWidget(title: 'Studio'),
         backgroundColor: Colors.white,
-        body: Padding(
-          padding: const EdgeInsets.only(top: 15),
-          child: Center(
-            child: Column(children: <Widget>[
-              ToggleButtons(
-                borderWidth: 3,
-                disabledBorderColor: Colors.blueGrey,
-                selectedBorderColor: Color.fromARGB(255, 73, 138, 251),
-                splashColor: Colors.blue[200],
-                borderRadius: BorderRadius.all(Radius.circular(15)),
-
-                children: [
-                     Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
-                        child: Text(
-                          'Songs',
-                          style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.blueAccent,
-                            ),
-                        )),
-                    Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 20),
-                        child: Text(
-                          'Carton series',
-                          style:
-                              TextStyle(
-                                fontSize: 20, 
-                                fontWeight: FontWeight.bold,
-                                color: Colors.blueAccent
-                                ),
-                        )),
-                  
-                ],
-                isSelected: isSelected,
-                onPressed: choosenToggleButton,
-              ),
-              SizedBox(
-                height: 5,
-              ),
-              Container(
-                child: subStudioScreen(),
-              ),
-            ]),
-          ),
-         ),
-        //bottomNavigationBar: AnimatedBottomNavigationBarScreen(),
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.only(top: 15),
+            child: Center(
+              child: Column(children: <Widget>[
+                ToggleButtons(
+                  borderWidth: 3,
+                  disabledBorderColor: Colors.blueGrey,
+                  selectedBorderColor: Color.fromARGB(255, 84, 197, 253),
+                  splashColor: Color.fromARGB(255, 100, 210, 241),
+                  borderRadius: BorderRadius.all(Radius.circular(15)),
+        
+                  children: [
+                       Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 20),
+                          child: Text(
+                            'Songs',
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              color: Color.fromARGB(255, 66, 172, 210),
+                              ),
+                          )),
+                      Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 20),
+                          child: Text(
+                            'Carton series',
+                            style:
+                                TextStyle(
+                                  fontSize: 20, 
+                                  fontWeight: FontWeight.bold,
+                                  color: Color.fromARGB(255, 66, 172, 210),
+                                  ),
+                          )),
+                    
+                  ],
+                  isSelected: isSelected,
+                  onPressed: choosenToggleButton,
+                ),
+                SizedBox(
+                  height: 5,
+                ),
+                Container(
+                  child: subStudioScreen(),
+                ),
+              ]),
+            ),
+           ),
+        ),
         );
   }
 

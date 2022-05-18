@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:kanu/Model/card_item.dart';
-import 'package:kanu/Model/sub_publishing_model.dart';
+import 'package:kanu/Model/sub_songs_model.dart';
 import 'package:kanu/Widgets/sub_songs_screen_body.dart';
 
 class SubSongsScreen extends StatelessWidget {
   final CardItem item;
-  final SubPublishingModel pItem;
+  final SubSongsModel pItem;
   const SubSongsScreen({
     Key? key,
     required this.item,
@@ -24,7 +24,7 @@ class SubSongsScreen extends StatelessWidget {
              width: width,
                child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Colors.white,
+              backgroundColor: Colors.white10,
               elevation: 0,
               leading: IconButton(
                 icon: Icon(Icons.arrow_back),

@@ -20,16 +20,16 @@ class BuildTeamCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double height = MediaQuery.of(context).size.height;
-    double width = MediaQuery.of(context).size.width;
+    //double height = MediaQuery.of(context).size.height;
+    //double width = MediaQuery.of(context).size.width;
 
     return Container(
       decoration: BoxDecoration(
           color: Colors.blueGrey,
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(15), topRight: Radius.circular(15))),
-      width: width * 3 / 7,
-      height: height * 3 / 6,
+      width: 170,
+      height: 370,
       child: Column(
         children: [
           Expanded(
@@ -37,8 +37,8 @@ class BuildTeamCard extends StatelessWidget {
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(10), topRight: Radius.circular(10)),
               child: Container(
-                height: height * 3 / 16,
-                width: width * 3 / 7.5,
+                height: 80,
+                width: 160,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                       image: NetworkImage(image), fit: BoxFit.fill),
@@ -47,8 +47,8 @@ class BuildTeamCard extends StatelessWidget {
             ),
           ),
           Container(
-            height: height * 3 / 68,
-            width: width * 3 / 8,
+            height: 30,
+            width: 160,
             child: Text(
               title,
               textAlign: TextAlign.center,
@@ -59,8 +59,8 @@ class BuildTeamCard extends StatelessWidget {
             ),
           ),
           Container(
-            height: height * 3 / 68,
-            width: width * 3 / 8,
+            height: 40,
+            width: 160,
             child: Text(
               subTitle,
               textAlign: TextAlign.center,
@@ -71,8 +71,8 @@ class BuildTeamCard extends StatelessWidget {
             ),
           ),
           Container(
-            height: height * 3 / 26,
-            width: width * 3 / 8,
+            height: 90,
+            width: 160,
             child: Text(
               description,
               textAlign: TextAlign.center,

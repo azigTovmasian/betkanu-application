@@ -53,7 +53,7 @@ class _PublishingScreenState extends State<PublishingScreen> {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 254, 253, 249),
         body: Container(
-          height: 550,
+          height: height*0.9,
           child: ListView.separated(
             padding: EdgeInsets.all(30),
             itemBuilder: (context, index) => BuildPublishingWidget(

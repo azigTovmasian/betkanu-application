@@ -24,7 +24,7 @@ class SubSoftwareScreen extends StatelessWidget {
              width: width,
                child: Scaffold(
             appBar: AppBar(
-              backgroundColor: Colors.white,
+              backgroundColor: Colors.white10,
               elevation: 0,
               leading: IconButton(
                 icon: Icon(Icons.arrow_back),

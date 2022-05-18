@@ -24,8 +24,8 @@ class OurCenterWidget extends StatelessWidget {
           Column(
             children: [
               Container(
-                width: width * 3 / 7,
-                height: height * 3 / 14,
+                width: 160,
+                height: 130,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     image: DecorationImage(

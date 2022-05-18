@@ -44,6 +44,7 @@ class _AppBarWidgetState extends State<AppBarWidget> {
       title: Text(
         widget.title,
         style: TextStyle(
+          height: 2.3,
           color: Color.fromARGB(255, 249, 177, 51),
           fontSize: height * 0.00010 * width, 
           fontWeight: FontWeight.bold,

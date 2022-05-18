@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:kanu/Model/card_item.dart';
-import 'package:kanu/Model/sub_publishing_model.dart';
+import 'package:kanu/Model/sub_songs_model.dart';
 
 class SubSongsScreenBody extends StatelessWidget {
-  final SubPublishingModel pItem;
+  final SubSongsModel pItem;
   final CardItem item;
 
   const SubSongsScreenBody({
@@ -21,7 +21,7 @@ class SubSongsScreenBody extends StatelessWidget {
       children: [
         Container(
           height: height * 1 / 6,
-          width: width * 3 / 3.5,
+          width: width,
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: NetworkImage(item.imageURL), fit: BoxFit.fill),

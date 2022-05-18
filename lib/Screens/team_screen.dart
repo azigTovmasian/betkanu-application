@@ -78,7 +78,7 @@ class _TeamScreenState extends State<TeamScreen> {
                   fontWeight: FontWeight.bold),
             ),
             Container(
-              height: height * 3 / 6,
+              height: 370,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 padding: EdgeInsets.all(30),
@@ -103,7 +103,7 @@ class _TeamScreenState extends State<TeamScreen> {
                   fontWeight: FontWeight.bold),
             ),
             Container(
-              height: height * 3 / 6,
+              height: 370,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 padding: EdgeInsets.all(30),
@@ -128,7 +128,7 @@ class _TeamScreenState extends State<TeamScreen> {
                   fontWeight: FontWeight.bold),
             ),
             Container(
-              height: height * 3 / 6,
+              height:370,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 padding: EdgeInsets.all(30),

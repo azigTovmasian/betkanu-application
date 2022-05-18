@@ -38,29 +38,31 @@ class _AnimatedBottomNavigationBarScreenState
       Icon(Icons.menu_book, semanticLabel: 'Publishing', size: 30),
     ];
 
-    return Scaffold(
-      appBar: AppBarWidget(title: screensName[_index]),
-      body: _screens[_index],
-      drawer: NavigationDrawerWidget(),
-      bottomNavigationBar: Theme(
-        data: Theme.of(context).copyWith(
-            iconTheme: IconThemeData(
-          color: Color.fromARGB(255, 16, 38, 60),
-        )),
-        child: CurvedNavigationBar(
-            index: this._index,
-            backgroundColor: Colors.transparent,
-            color: Color.fromARGB(255, 115, 149, 244),
-            buttonBackgroundColor: Colors.orange[400],
-            height: 50,
-            items: navigationItems,
-            onTap: (index) {
-              setState(() {
-                this._index = index;
-              });
-            }),
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBarWidget(title: screensName[_index]),
+        body: _screens[_index],
+        drawer: NavigationDrawerWidget(),
+        bottomNavigationBar: Theme(
+          data: Theme.of(context).copyWith(
+              iconTheme: IconThemeData(
+            color: Color.fromARGB(255, 16, 38, 60),
+          )),
+          child: CurvedNavigationBar(
+              index: this._index,
+              backgroundColor: Colors.transparent,
+              color: Color.fromARGB(255, 66, 172, 210),
+              buttonBackgroundColor: Colors.orange[400],
+              height: 50,
+              items: navigationItems,
+              onTap: (index) {
+                setState(() {
+                  this._index = index;
+                });
+              }),
+        ),
+        // ),
       ),
-      // ),
     );
   }
 }

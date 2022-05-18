@@ -49,20 +49,23 @@ class _SoftwareScreenState extends State<SoftwareScreen> {
 
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 254, 253, 249),
-      body: Container(
-          height: 550,
-          child: ListView.separated(
-            padding: EdgeInsets.all(30),
-            itemBuilder: (context, index) => BuildSoftwareWidget(
-              image: softwareScreenData[index]['image'],
-              title: softwareScreenData[index]['title'],
-              item: items[index],
-               pItem: sItem[index],
+      body: Center(
+        child: Container(
+            height: height*0.9,
+            width:400 ,
+            child: ListView.separated(
+              padding: EdgeInsets.all(30),
+              itemBuilder: (context, index) => BuildSoftwareWidget(
+                image: softwareScreenData[index]['image'],
+                title: softwareScreenData[index]['title'],
+                item: items[index],
+                 pItem: sItem[index],
+              ),
+              separatorBuilder: (context, _) => SizedBox(height: 20),
+              itemCount: softwareScreenData.length,
             ),
-            separatorBuilder: (context, _) => SizedBox(height: 20),
-            itemCount: softwareScreenData.length,
           ),
-        ),
+      ),
     );
   }
 }
