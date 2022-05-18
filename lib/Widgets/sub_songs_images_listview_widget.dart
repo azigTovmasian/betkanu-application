@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:kanu/Screens/songs_videos_screen.dart';
-import 'package:kanu/data/songs_screen_data.dart';
 import 'package:kanu/data/sub_songs_screen_data.dart';
 
 class SubSongsImagesListViewWidget extends StatelessWidget {

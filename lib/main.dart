@@ -45,6 +45,7 @@ class _MyAppState extends State<MyApp> {
         SetLocalization.localizationsDelegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
       ],
       locale: _locale,
       supportedLocales: [

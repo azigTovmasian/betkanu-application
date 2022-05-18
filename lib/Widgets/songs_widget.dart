@@ -1,4 +1,3 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:kanu/Model/card_item.dart';
@@ -46,6 +45,7 @@ class _SongsWidgetState extends State<SongsWidget> {
 
     return Container(
         height: height*0.75,
+        width: 400,
         child: ListView.separated(
           padding: EdgeInsets.all(30),
           itemBuilder: (context, index) => BuildSongsWidget(

@@ -48,7 +48,7 @@ dependencies:
   path: ^1.8.0 # to manipulate paths
   file_picker: ^4.5.1 #to pick a file
   path_provider: ^2.0.9 # to store file on device
-  youtube_player_flutter: ^8.0.0 #to play youtube videos 
+  youtube_player_flutter: ^8.1.0 #to play youtube videos 
   store_redirect: ^2.0.1 #to redirect to an app page in Google Play Store and Apple App Store
 
 

@@ -22,7 +22,7 @@ class SigninScreen extends StatelessWidget {
               children: [
                 SizedBox(height: 100),
                 Text(
-                  'Wellcome to BETKANU ..',
+                  'Welcome to BETKANU ..',
                   style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,

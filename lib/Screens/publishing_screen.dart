@@ -52,17 +52,20 @@ class _PublishingScreenState extends State<PublishingScreen> {
 
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 254, 253, 249),
-        body: Container(
-          height: height*0.9,
-          child: ListView.separated(
-            padding: EdgeInsets.all(30),
-            itemBuilder: (context, index) => BuildPublishingWidget(
-              image: publishingScreenData[index]['image'],
-              title: publishingScreenData[index]['title'],
-              item: items[index], pItem: pItem[index],
+        body: Center(
+          child: Container(
+            height: height*0.9,
+            width: 400,
+            child: ListView.separated(
+              padding: EdgeInsets.all(30),
+              itemBuilder: (context, index) => BuildPublishingWidget(
+                image: publishingScreenData[index]['image'],
+                title: publishingScreenData[index]['title'],
+                item: items[index], pItem: pItem[index],
+              ),
+              separatorBuilder: (context, _) => SizedBox(height: 20),
+              itemCount: publishingScreenData.length,
             ),
-            separatorBuilder: (context, _) => SizedBox(height: 20),
-            itemCount: publishingScreenData.length,
           ),
         ));
   }

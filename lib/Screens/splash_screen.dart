@@ -3,7 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:kanu/Screens/animated_bottom_navigation_bar_screen.dart';
 import 'package:kanu/Screens/signin_screen.dart';
-import 'package:kanu/Screens/songs_videos_screen.dart';
 import 'package:kanu/provider/google_signin_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -25,11 +24,8 @@ class _SplashScreenState extends State<SplashScreen> {
       splashIconSize: height,
       splashTransition: SplashTransition.scaleTransition,
       duration: 1000,
-      nextScreen: 
-      //SongsVideosScreen(),
-      ChangeNotifierProvider(
-        create: (context) => 
-        GoogleSigninProvider(),
+      nextScreen: ChangeNotifierProvider(
+        create: (context) => GoogleSigninProvider(),
         child: StreamBuilder(
             stream: FirebaseAuth.instance.authStateChanges(),
             builder: (context, snapshot) {

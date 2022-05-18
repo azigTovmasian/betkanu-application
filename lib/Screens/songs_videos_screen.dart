@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:kanu/data/sub_songs_screen_data.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class SongsVideosScreen extends StatefulWidget {
