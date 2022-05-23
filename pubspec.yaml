@@ -36,8 +36,8 @@ dependencies:
   firebase_core: ^1.15.0
   firebase_storage: ^10.2.14
   firebase_auth: ^3.3.17
-  cloud_firestore: ^3.1.13
-  google_sign_in: ^5.3.0
+  cloud_firestore: ^3.1.15
+  google_sign_in: ^5.3.1
   font_awesome_flutter: ^10.1.0 # for google icon
   provider: ^6.0.2 # for state management(here we'll use it for gmail login)
   dio: ^4.0.6 # to download files from internet
@@ -47,9 +47,11 @@ dependencies:
   #I keep an version old because it gives me an error with the newer version
   path: ^1.8.0 # to manipulate paths
   file_picker: ^4.5.1 #to pick a file
-  path_provider: ^2.0.9 # to store file on device
+  path_provider: ^2.0.10 # to store file on device
   youtube_player_flutter: ^8.1.0 #to play youtube videos 
   store_redirect: ^2.0.1 #to redirect to an app page in Google Play Store and Apple App Store
+  #rename: ^2.0.1 #to rename the app and give it an id
+  flutter_launcher_icons: ^0.9.2 # for apllication icon
 
 
 
@@ -57,6 +59,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  
+flutter_icons:
+  android: true
+  image_path: "images/K.jpg" 
 
 dev_dependencies:
   flutter_test:
